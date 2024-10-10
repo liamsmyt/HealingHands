@@ -560,7 +560,63 @@
       </div>
     </div>
 
-    <footer class="text-center py-3 footer mt-5">&copy; LSWebDesign.</footer>
+    <footer class="text-center py-3 footer mx-5 position-relative">
+      &copy; LSWebDesign.
+      <div class="info-link">
+        <a
+          href="#"
+          id="moreInfoLink"
+          data-bs-toggle="modal"
+          data-bs-target="#moreInfoModal"
+        >
+          Insurance information
+        </a>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="moreInfoModal"
+      tabindex="-1"
+      aria-labelledby="moreInfoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="moreInfoModalLabel">
+              Insurance Information
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Our services are covered under insurance companies listed below,
+            please get in contact for more info.
+            <ul>
+              <li>VHI Healthcare</li>
+              <li>Laya Healthcare</li>
+              <li>Irish Life Health</li>
+              <li>Glohealth</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap -->
     <script
