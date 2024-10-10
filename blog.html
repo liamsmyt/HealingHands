@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healing Hands - Blog</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Favicon links -->
+    <link
+      rel="icon"
+      href="healinghandsicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg p-0 sticky-top">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <div class="navbar-logo">
+          <a class="navbar-brand d-flex align-items-middle" href="index.html">
+            <img
+              src="media/healing hands rectangle logo.png"
+              alt="Brand Logo"
+              width="205"
+              height="60"
+              class="d-inline-block align-text-left ms-3 rounded"
+            />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <span class="bar"></span>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-1">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link selected" href="blog.html">Blog</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 text-center mb-4">
+          <h2 class="class-card-title">Healing Hands Blog</h2>
+          <p class="lead class-card-secondary">
+            Insights, Tips, and Stories to Support Your Wellness Journey
+          </p>
+        </div>
+      </div>
+
+      <!-- Blog Entries -->
+      <div class="row">
+        <!-- Blog Post 1 -->
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="media/blog/blog1.jpg"
+              class="card-img-top"
+              alt="Sound Therapy Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Power of Sound Therapy</h5>
+              <p class="card-text">
+                Discover the healing benefits of sound therapy, an ancient
+                practice that uses vibrations to restore balance to your body
+                and mind.
+              </p>
+              <a href="blog-post1.html" class="btn" id="customButton"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="media/blog/blog2.jpg"
+              class="card-img-top"
+              alt="Reflexology Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Understanding Reflexology</h5>
+              <p class="card-text">
+                Learn how reflexology can help improve circulation, promote
+                relaxation, and support your overall well-being.
+              </p>
+              <a href="blog-post2.html" class="btn" id="customButton"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- More blog posts can be added here -->
+    </div>
+
+    <footer class="text-center py-3 footer mx-5">&copy; LSWebDesign.</footer>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

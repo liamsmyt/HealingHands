@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BranoFit</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Favicon links -->
+    <link rel="icon" href="BranoFitIcons/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="BranoFitIcons/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Optional: Other formats -->
+    <!-- <link rel="icon" href="favicons/favicon.png" type="image/png" /> -->
+    <link rel="apple-touch-icon" href="BranoFitIcons/apple-touch-icon.png" />
+
+    <meta
+      property="og:image"
+      content="https://liamsmyt.github.io/BranoFit/media/meta.jpeg"
+    />
+    <meta property="og:title" content="BranoFit" />
+    <meta name="description" content="Personal Training Kildare" />
+    <meta property="og:description" content="Personal Training Kildare" />
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg p-0 sticky-top">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <div class="navbar-logo">
+          <a class="navbar-brand d-flex align-items-middle" href="index.html">
+            <img
+              src="media/healing hands rectangle logo.png"
+              alt="Brand Logo"
+              width="205"
+              height="60"
+              class="d-inline-block align-text-left ms-3 rounded"
+            />
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <span class="bar"></span>
+            <!-- Middle line -->
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-1">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+
+            <!-- Dropdown for Therapies -->
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Therapies
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="reflexology.html"
+                    >Reflexology</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hopiCandling.html"
+                    >Hopi Ear-Candling</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Sound Therapy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Massages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="reflexology.html"
+                    >Oncology Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hopiCandling.html"
+                    >Specialised Deep-Tissue</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Therapuetic Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Lymphatic Drainage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Pre-Natal Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Post-Natal Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Indian Head Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Aromatherapy Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Hot Stone Massage</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PT Qualifications Section -->
+    <div class="row mx-1 mt-5">
+      <div class="col-lg-12">
+        <div class="text-center mb-4">
+          <h2 class="class-card-title">Testimonials</h2>
+          <p class="lead class-card-secondary">
+            Check out what my clients have to say
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <ul class="list-group list-group-flush qualifications-list">
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-underline">- Sinead, Kildare</div>
+                  <div>
+                    "I absolutely love my appointments with Bernadette and I
+                    really look forward to them. I’ve been attending Healing
+                    Hands for several years now but only recently experienced
+                    Bernadette’s Sound Therapy. It was so relaxing and I felt
+                    the benefit of it days later. I always experience renewed
+                    energy levels after a reflexology session but with added
+                    sound therapy too I feel so much lighter, less stiff, and
+                    less stressed. I would highly recommend Bernadette for any
+                    of her vast array of treatments. All the treatments, the
+                    environment, and Bernadette herself, both as a person and a
+                    professional, are so tranquil, warm, and welcoming."
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="200"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-underline">- Martina, Naas</div>
+                  <div>
+                    ""I was surprised at how relaxed and zen I felt after
+                    attending Bernadette’s Sound Therapy session. I am very in
+                    tune with holistic therapies and regularly for reflexology
+                    but I have to admit I was still sceptical as to how I would
+                    benefit from the sound therapy. In my hectic and fast paced
+                    life, I find it extremely difficult to relax but I found the
+                    sound therapy very powerful and it had a profound effect on
+                    my mind and body. The sound therapy coupled with the
+                    reflexology treatment was amazing and I could not rate
+                    either treatment high enough. A word of warning, in relation
+                    to the Sound Therapy it’s essential to approach the
+                    experience with an open mind and a willingness to let go of
+                    any preconceived notions or expectations. The benefits and
+                    the effects of a wellbeing are worth it. I have signed up
+                    for a course as I think it will really help me reduce my
+                    stress levels." "
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="300"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-underline">- Fidelma, Newbridge</div>
+                  <div>
+                    "I’ve recently been a client of Bernadette for sound therapy
+                    and reflexology. The sound therapy is really incredible, it
+                    brings you to a place of deep deep relaxation it’s not like
+                    anything else I’ve experienced and after the treatment, I’ve
+                    found myself to feel more grounded, eneergized, sleep has
+                    improved greatly, The reflexology is another incredible
+                    treatment, this promotes healing through massage of pressure
+                    points in your feet. Since doing this treatment I’ve a lot
+                    of my menopausal symptoms have improved including less
+                    headaches, joint pain and have a general feeling of
+                    well-being that I haven’t had in years. I have also received
+                    deep tissue massage for migraines/headaches and for muscle
+                    aches and pains from Bernadette. If you are looking for
+                    someone in the Kildare area I could not recommend Bernadette
+                    more, she is a natural healer and her clinic is always
+                    spotlessly clean warm and welcoming."
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="300"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-underline">- Mary, Naas</div>
+                  <div>
+                    ""I first went to Bernadette for reflexology when I was
+                    expecting my first child – that was 24 years ago have been
+                    going to her since! Throughout all that time I have been
+                    able to re-boot my energy levels and train of thought with
+                    it. Having a family, running a very busy business and
+                    looking after everyone naturally brings its stress and
+                    strain to the body both mentally and physically. I cannot
+                    express how beneficial her reflexology has been for me and I
+                    recently had the chance to try sound bath with Bernadette
+                    and could not get over how much energy I had after it. I
+                    always know when I need to go for reflexology as my body
+                    will tell me and without fail Bernadette always delivers in
+                    the most professional and relaxed manner.""
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="300"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold text-underline">- Bernie, Newbridge</div>
+                  <div>
+                    "I am so pleased to have met Bernadette – she truly has
+                    healing hands. Her work on my Tech Neck, runners knees (deep
+                    tissue massage ) and general health rebalancing
+                    (reflexology) has been truly amazing with great results.
+                    Professional but caring, intuitive and highly knowledgeable
+                    I am delighted to have her skills as part of my well being
+                    tool kit. As always thanks for your help Bernadette I am
+                    more than happy to recommend Healing Hands”""
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center py-3 footer mt-5">&copy; LSWebDesign.</footer>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

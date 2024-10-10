@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healing Hands</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Favicon links -->
+    <link rel="icon" href="BranoFitIcons/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="BranoFitIcons/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Optional: Other formats -->
+    <!-- <link rel="icon" href="favicons/favicon.png" type="image/png" /> -->
+    <link rel="apple-touch-icon" href="BranoFitIcons/apple-touch-icon.png" />
+    <!-- For Apple devices -->
+
+    <meta
+      property="og:image"
+      content="https://liamsmyt.github.io/BranoFit/media/meta.jpeg"
+    />
+    <meta property="og:title" content="BranoFit" />
+    <meta name="description" content="Personal Training Kildare" />
+    <meta property="og:description" content="Personal Training Kildare" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg p-0 sticky-top">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <div class="navbar-logo">
+          <a class="navbar-brand d-flex align-items-middle" href="index.html">
+            <img
+              src="media/healing hands rectangle logo.png"
+              alt="Brand Logo"
+              width="205"
+              height="60"
+              class="d-inline-block align-text-left ms-3 rounded"
+            />
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <span class="bar"></span>
+            <!-- Middle line -->
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-1">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link selected" aria-current="page" href="contact.html"
+              >Contact</a
+            >
+
+            <!-- Dropdown for Therapies -->
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Therapies
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="reflexology.html"
+                    >Reflexology</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hopiCandling.html"
+                    >Hopi Ear-Candling</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Sound Therapy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Massages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="oncology.html"
+                    >Oncology Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sDeepTissue.html"
+                    >Specialised Deep-Tissue</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="therapuetic.html"
+                    >Therapuetic Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="lymphatic.html"
+                    >Lymphatic Drainage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="preNatal.html"
+                    >Pre-Natal Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="postNatal.html"
+                    >Post-Natal Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="indianHead.html"
+                    >Indian Head Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="aromaTherapy.html"
+                    >Aromatherapy Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hotStone.html"
+                    >Hot Stone Massage</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <a
+            class="btn ms-auto mx-1 d-none d-lg-block fs-md"
+            id="customButton"
+            href="testimonials.html"
+            >Read Client Testimonials</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row mx-1 mt-5">
+        <div class="col-lg-12">
+          <div class="bg-light rounded p-4">
+            <h2 class="text-center class-card-title">Get In Touch</h2>
+            <p class="lead text-center class-card-secondary">
+              Looking to book an appointment? Got any questions or enquiries?
+            </p>
+            <button
+              class="btn mb-1"
+              id="customButton"
+              data-bs-toggle="modal"
+              data-bs-target="#popupNoteModal"
+            >
+              Click for important info
+            </button>
+
+            <!-- Popup Modal -->
+            <div
+              class="modal fade"
+              id="popupNoteModal"
+              tabindex="-1"
+              aria-labelledby="popupNoteModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="popupNoteModalLabel">Note:</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    CANCELLATIONS: 48 HOURS NOTICE IS REQUIRED TO CANCEL AN
+                    APPOINTMENT. FAILURE TO DO SO WILL RESULT IN FULL PAYMENT OF
+                    TREATMENT BOOKED. PLEASE BE ON TIME FOR YOUR APPOINTMENT.
+                    PLEASE SWITCH OFF YOUR MOBILE PHONE FOR THE DURATION OF YOUR
+                    TREATMENT. GIFT VOUCHERS ARE NOT TRANSFERABLE.
+                    <p></p>
+                    <p>Gift vouchers available upon request</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p id="contact-info" class="fw-light">
+              Email: info@hhandsclinic.ie
+            </p>
+            <p id="contact-info" class="fw-light">
+              LinkedIn: bernadettehealinghands
+            </p>
+            <p class="fw-light">Phone: +353 863893413</p>
+
+            <!-- Contact Form -->
+            <form id="contactForm">
+              <!-- Name Field -->
+              <div class="mb-3">
+                <label for="contactName" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="contactName"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+
+              <!-- Email Field -->
+              <div class="mb-3">
+                <label for="contactEmail" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="contactEmail"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <!-- Phone Number Field -->
+              <div class="mb-3">
+                <label for="contactPhone" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="contactPhone"
+                  name="phone"
+                  placeholder="Enter your phone number"
+                  pattern="[0-9+ ]{10,15}"
+                  required
+                />
+              </div>
+
+              <!-- Service Checkboxes -->
+              <div class="mb-3">
+                <label class="form-label"
+                  >Select Services You Are Interested In</label
+                >
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service1"
+                    name="services"
+                    value="Reflexology"
+                  />
+                  <label class="form-check-label" for="service1"
+                    >Reflexology</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service2"
+                    name="services"
+                    value="Hopi Candling"
+                  />
+                  <label class="form-check-label" for="service2"
+                    >Hopi Candling</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service3"
+                    name="services"
+                    value="Sound Therapy"
+                  />
+                  <label class="form-check-label" for="service3"
+                    >Sound Therapy</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service4"
+                    name="services"
+                    value="Oncology"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Oncology</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service5"
+                    name="services"
+                    value="Deep Tissue"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Deep Tissue</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service6"
+                    name="services"
+                    value="Therapeutic"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Therapeutic</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service7"
+                    name="services"
+                    value="Lymphatic"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Lymphatic</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service8"
+                    name="services"
+                    value="Acupuncture"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Pre-Natal</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service9"
+                    name="services"
+                    value="Acupuncture"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Post-Natal</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service10"
+                    name="services"
+                    value="Indian Head"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Indian Head</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service11"
+                    name="services"
+                    value="Aromatherapy"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Aromatherapy</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service12"
+                    name="services"
+                    value="Hot Stone"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Hot Stone</label
+                  >
+                </div>
+              </div>
+
+              <!-- Message Field -->
+              <div class="mb-3">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="contactMessage"
+                  name="message"
+                  rows="3"
+                  placeholder="Your message"
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn" id="customButton">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center py-3 footer mx-5 position-relative">
+      &copy; LSWebDesign.
+      <div class="info-link">
+        <a
+          href="#"
+          id="moreInfoLink"
+          data-bs-toggle="modal"
+          data-bs-target="#moreInfoModal"
+        >
+          Insurance coverage
+        </a>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="moreInfoModal"
+      tabindex="-1"
+      aria-labelledby="moreInfoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="moreInfoModalLabel">
+              More Information
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Our services are covered under insurance companies listed below,
+            please get in contact for more info.
+            <ul>
+              <li>VHI Healthcare</li>
+              <li>Laya Healthcare</li>
+              <li>Irish Life Health</li>
+              <li>Glohealth</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EmailJS Script -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "LiRwygA2lBvcrw_3E", // Your public key
+        });
+      })();
+    </script>
+
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent default form submission
+
+          const serviceID = "service_kuln9ss"; // Your service ID
+          const templateID = "template_a77o2dp"; // Your product request template ID
+
+          // Collect form data
+          const params = {
+            name: document.getElementById("contactName").value,
+            email: document.getElementById("contactEmail").value,
+            message: document.getElementById("contactMessage").value,
+          };
+
+          // Send email with parameters
+          emailjs.send(serviceID, templateID, params).then(
+            () => {
+              alert(
+                "Message sent! I'll get back to you soon, keep an eye on your email in the meantime"
+              );
+              this.reset(); // Reset the form after submission
+            },
+            (err) => {
+              console.error("Failed to send message.", err);
+              alert("Failed to send message.\n " + JSON.stringify(err));
+            }
+          );
+        });
+    </script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

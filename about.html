@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Favicon links -->
+    <link rel="icon" href="BranoFitIcons/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="BranoFitIcons/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Optional: Other formats -->
+    <!-- <link rel="icon" href="favicons/favicon.png" type="image/png" /> -->
+    <link rel="apple-touch-icon" href="BranoFitIcons/apple-touch-icon.png" />
+
+    <meta
+      property="og:image"
+      content="https://liamsmyt.github.io/BranoFit/media/meta.jpeg"
+    />
+    <meta property="og:title" content="BranoFit" />
+    <meta name="description" content="Personal Training Kildare" />
+    <meta property="og:description" content="Personal Training Kildare" />
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg p-0 sticky-top">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <div class="navbar-logo">
+          <a class="navbar-brand d-flex align-items-middle" href="index.html">
+            <img
+              src="media/healing hands rectangle logo.png"
+              alt="Brand Logo"
+              width="205"
+              height="60"
+              class="d-inline-block align-text-left ms-3 rounded"
+            />
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <span class="bar"></span>
+            <!-- Middle line -->
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-1">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link selected" aria-current="page" href="about.html"
+              >About</a
+            >
+            <a class="nav-link" href="contact.html">Contact</a>
+
+            <!-- Dropdown for Therapies -->
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Therapies
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="reflexology.html"
+                    >Reflexology</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hopiCandling.html"
+                    >Hopi Ear-Candling</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="soundTherapy.html"
+                    >Sound Therapy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Massages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="oncology.html"
+                    >Oncology Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sDeepTissue.html"
+                    >Specialised Deep-Tissue</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="therapuetic.html"
+                    >Therapuetic Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="lymphatic.html"
+                    >Lymphatic Drainage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="preNatal.html"
+                    >Pre-Natal Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="postNatal.html"
+                    >Post-Natal Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="indianHead.html"
+                    >Indian Head Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="aromaTherapy.html"
+                    >Aromatherapy Massage</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hotStone.html"
+                    >Hot Stone Massage</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <a
+            class="btn ms-auto mx-1 d-none d-lg-block fs-md"
+            id="customButton"
+            href="testimonials.html"
+            >Read Client Testimonials</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <div class="container my-5">
+      <div class="row align-items-center">
+        <!-- Image on Left -->
+        <div class="col-md-3">
+          <img
+            src="media/bernadette_face_2.jpg"
+            class="img-fluid rounded d-md-block d-none"
+            alt="Your Photo"
+          />
+        </div>
+        <div class="col-md-9">
+          <h2 class="class-card-title text-center">About Me</h2>
+          <div class="class-card-text">
+            <p class="lead class-card-text my-1 fw-bold">
+              I am Bernadette Doyle, owner of Healing Hands, I have than 30
+              years of experience practitioning and hundreds of satisfied
+              clients so you can be sure you're making the right choice!
+            </p>
+            <div class="mx-2">
+              <p class="lead class-card-text my-1">
+                Healing Hands™ is not just a clever brand name. Bernadette chose
+                that name for her business because so many people tell her that
+                her hands have healing qualities.
+              </p>
+              <p class="lead class-card-text my-1">
+                She has the perfect combination of experience, certified skills
+                and that intangible quality that really makes a complementary
+                therapy practitioner stand out from the average – she is one of
+                the world’s carers.
+              </p>
+              <p class="lead class-card-text my-1">
+                Her clients will tell you that as soon as you place yourself in
+                Bernadette’s hands you relax, instinctively knowing that you are
+                doing yourself good, and that’s before she even lays a finger on
+                you. She takes the time to listen – therapy in itself – before
+                choosing the best treatment for you.
+              </p>
+            </div>
+          </div>
+          <div class="text-center my-3">
+            <a class="btn" id="customButton" href="contact.html"
+              >Get in touch</a
+            >
+          </div>
+        </div>
+
+        <!-- Text on Right -->
+      </div>
+    </div>
+
+    <div class="container my-3 blueback py-4 w-100">
+      <!-- d-md-none hides on devices md and up -->
+      <div class="row align-items-center">
+        <!-- Text on Left -->
+        <div class="col-12 text-center text-white">
+          <!-- Added text-center class -->
+          <h3 class="whitetitle">What My Clients Say</h3>
+          <p class="lead whitetext">
+            My clients' health and wellbeing is my No.1 priority. Check out what
+            they have to say!
+          </p>
+          <a class="btn" id="customButton2" href="testimonials.html"
+            >Read Client Testimonials</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- PT Qualifications Section -->
+    <!-- PT Qualifications Section -->
+    <div class="row mx-1 mt-5">
+      <div class="col-lg-12">
+        <div class="text-center mb-4">
+          <h2 class="class-card-title">My Qualifications</h2>
+          <p class="lead class-card-secondary">
+            Continuous Professional Development is a mantra for Bernadette. She
+            is rigorous about updating her skills and holds a wide range of
+            qualifications.
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <ul class="list-group list-group-flush qualifications-list">
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="25"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">Sports Therapist ITEC (1994)</div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="50"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Anatomy, Physiology, Swedish Massage ITEC, CIBTAC (1994)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="75"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">Aromatherapy IFA (1995)</div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="100"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">Reflexology ITEC (1997)</div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="125"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">Esoterics (1997)</div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="150"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">Indian Head Massage (1998)</div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="175"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Advanced Reflexology (1999/2002)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="200"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">Hopi Ear Candling (2003)</div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="225"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Hot/Cold Stone Massage (2005)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="250"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Occupational First Aid (2010)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="275"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Traditional Thai Massage (2012)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="300"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">Dry Needling (2013)</div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="325"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">On Site Chair Massage (2015)</div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="350"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Personal Development and Communication Skills (2016)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="375"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Mental Health First Aid (2016)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="400"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Re-certified First Aid certificate (2017)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="425"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Reflexology and Special Needs (2017)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="450"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">Oncology Massage (2017)</div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="475"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Re-certified first aid training (2019)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="500"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    R.L.D. (Reflexology Lymphatic Drainage) (2020)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="525"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Teacher Training/Tutor (2021)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="550"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Post-graduate Advanced Reflexology (2022)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="60"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Sound Therapy Advanced Level (2024)
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-start"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="650"
+                data-aos-easing="ease-in-out"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="text-underline">
+                    Bio Energy and Tuning Forks (2024)
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center py-3 footer mt-5">&copy; LSWebDesign.</footer>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Initialize AOS -->
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+        offset: 120,
+        once: true, // Ensures animation occurs only once when scrolling
+      });
+    </script>
+  </body>
+</html>

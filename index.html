@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healing Hands</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">    
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Favicon links -->
+    <link rel="icon" href="healinghandsicons/favicon-32x32.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="healinghandsicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- Optional: Other formats -->
+    <!-- <link rel="icon" href="favicons/favicon.png" type="image/png" /> -->
+    <link rel="apple-touch-icon" href="healinghandsicons/apple-touch-icon.png" />
+    <!-- For Apple devices -->
+
+    <meta
+      property="og:image"
+      content="https://liamsmyt.github.io/BranoFit/media/meta.jpeg"
+    />
+    <meta property="og:title" content="BranoFit" />
+    <meta name="description" content="Personal Training Kildare" />
+    <meta property="og:description" content="Personal Training Kildare" />
+  </head>
+  <body>
+      
+      
+    <nav class="navbar navbar-expand-lg p-0 sticky-top">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div class="navbar-logo">
+          <a class="navbar-brand d-flex align-items-middle" href="index.html">
+            <img
+              src="media/healing hands rectangle logo.png"
+              alt="Brand Logo"
+              width="205"
+              height="60"
+              class="d-inline-block align-text-left ms-3 rounded"
+            />
+          </a>
+        </div>
+    
+        <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <span class="bar"></span> <!-- Middle line -->
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-1">
+            <a class="nav-link selected" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+    
+            <!-- Dropdown for Therapies -->
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Therapies
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="reflexology.html">Reflexology</a></li>
+                <li><a class="dropdown-item" href="hopiCandling.html">Hopi Ear-Candling</a></li>
+                <li><a class="dropdown-item" href="soundTherapy.html">Sound Therapy</a></li>
+              </ul>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Massages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="oncology.html">Oncology Massage</a></li>
+                <li><a class="dropdown-item" href="sDeepTissue.html">Specialised Deep-Tissue</a></li>
+                <li><a class="dropdown-item" href="therapuetic.html">Therapuetic Massage</a></li>
+                <li><a class="dropdown-item" href="lymphatic.html">Lymphatic Drainage</a></li>
+                <li><a class="dropdown-item" href="preNatal.html">Pre-Natal Massage</a></li>
+                <li><a class="dropdown-item" href="postNatal.html">Post-Natal Massage</a></li>
+                <li><a class="dropdown-item" href="indianHead.html">Indian Head Massage</a></li>
+                <li><a class="dropdown-item" href="aromaTherapy.html">Aromatherapy Massage</a></li>
+                <li><a class="dropdown-item" href="hotStone.html">Hot Stone  Massage</a></li>
+              </ul>
+            </div>
+          </div>
+    
+          <a
+            class="btn ms-auto mx-1 d-none d-lg-block fs-md"
+            id="customButton"
+            href="testimonials.html"
+            >Read Client Testimonials</a
+          >
+        </div>
+      </div>
+    </nav>
+    
+      
+
+      <div class="container-fluid position-relative">
+        <!-- Image for larger screens -->
+        <img
+          src="media/background(2).png"
+          class="img-fluid w-100 d-none d-sm-block"
+          alt="Responsive image"
+          id="bgImage"
+        />
+        
+        <!-- Image for smaller screens -->
+        <img
+          src="media/background(1).png"
+          class="img-fluid w-100 d-block d-sm-none"
+          alt="Responsive image"
+          id="bgImageSmall"
+        />
+        
+        <div class="overlay-content">
+          <h1 class="fw-semibold display-block">Healing Hands</h1>
+          <p class="lead">A calm and relaxing environment to start your healing</p>
+          <a class="btn" id="customButton" href="contact.html">Get started</a>
+        </div>
+      </div>
+
+
+
+<!-- My Services Section -->
+<div class="container my-5">
+  <div class="row">
+    <div class="col-12 text-center mb-4">
+      <h class="class-card-title">My Therapies</h2>
+      <p class="lead class-card-secondary">Therapies designed to heal mind, body and soul</p>
+    </div>
+  </div>
+  <div class="row">
+    <!-- Service 1: Personal Training -->
+    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-underline">Sound Therapy</h5>
+          <p class=" class-card-text">
+            Sound therapy, an ancient practice from Tibetan, Native American, Egyptian, and Indian cultures, uses sound to promote healing. Based on the idea that everything vibrates at a unique frequency, it helps restore balance when the body is out of harmony, improving overall health and well-being as well as evoking healing on physical, mental, and spiritual levels.
+          </p>
+          <a class="btn" id="customButton" href="soundTherapy.html">Read more</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 2: Group Fitness Classes -->
+    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-underline">Reflexology</h5>
+          <p class=" class-card-text">
+            
+            Reflexology is a holistic practice that involves applying pressure to specific points on the feet and hands, which correspond to parts of the body. This technique helps improve circulation, promote relaxation, and restore the body's balance (homeostasis). It activates the body's own healing processes and supports overall well-being.          </p>
+          <a class="btn" id="customButton" href="reflexology.html">Read more</a>
+
+        </div>
+      </div>
+    </div> 
+
+
+    <!-- Service 3: Nutrition Coaching -->
+    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-underline">Hopi-Ear Candling</h5>
+          <p class=" class-card-text">
+            The therapy involves inserting a special beeswax candle into the ear, releasing herbal vapors that massage the ear canal and soften impurities. The gentle heat stimulates circulation, boosts the immune system, and regulates pressure in the ear and head. After treating both ears, the session ends with a soothing ear, face, and neck massage to support lymphatic drainage.
+          </p>
+          <a class="btn" id="customButton" href="hopiCandling.html">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+    <div class="container my-3 blueback py-4 w-100"> <!-- d-md-none hides on devices md and up -->
+      <div class="row align-items-center">
+        <!-- Text on Left -->
+        <div class="col-12 text-center text-white"> <!-- Added text-center class -->
+          <h3 class="whitetitle">What My Clients Say</h3>
+          <p class="lead whitetext">My clients' health and wellbeing is my No.1 priority. Check Out what they have to say!</p>
+          <a class="btn" id="customButton2" href="testimonials.html">Read Client Testimonials</a>
+        </div>
+      </div>
+    </div>
+
+
+  
+
+    <div class="row mx-1 mt-5">
+      <div class="col-lg-12">
+        <div class="bg-light rounded p-4 shadow">
+          <h2 class="text-center class-card-title">Get In Touch</h2>
+          <p class="lead text-center class-card-secondary">
+            Looking to book an appointment? Got any questions or enquiries?
+          </p>
+          <p id="contact-info" class="fw-light">
+            Email: info@hhandsclinic.ie
+          </p>
+          <p id="contact-info" class="fw-light">
+            LinkedIn: bernadettehealinghands
+          </p>
+          <p class="fw-light">Phone: +353 863893413</p>
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="contactName" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="contactName"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="contactEmail" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="contactEmail"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="contactMessage" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="contactMessage"
+                name="message"
+                rows="3"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn" id="customButton">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+    <footer class="text-center py-3 footer mx-5">
+      &copy; LSWebDesign.
+    </footer>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <!-- Dropdown animations -->
+    <script>
+      // When the dropdown is shown
+      document.addEventListener('DOMContentLoaded', function () {
+        var dropdownElement = document.querySelector('.dropdown');
+    
+        dropdownElement.addEventListener('show.bs.dropdown', function () {
+          let dropdownMenu = this.querySelector('.dropdown-menu');
+          dropdownMenu.classList.add('show');
+        });
+    
+        dropdownElement.addEventListener('hide.bs.dropdown', function () {
+          let dropdownMenu = this.querySelector('.dropdown-menu');
+          dropdownMenu.classList.remove('show');
+        });
+      });
+    </script>
+    
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "LiRwygA2lBvcrw_3E", // Your public key
+        });
+      })();
+    </script>
+
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent default form submission
+
+          const serviceID = "service_kuln9ss"; // Your service ID
+          const templateID = "template_a77o2dp"; // Your product request template ID
+
+          // Collect form data
+          const params = {
+            name: document.getElementById("contactName").value,
+            email: document.getElementById("contactEmail").value,
+            message: document.getElementById("contactMessage").value,
+          };
+
+          // Send email with parameters
+          emailjs.send(serviceID, templateID, params).then(
+            () => {
+              alert(
+                "Message sent! I'll get back to you soon, keep an eye on your email in the meantime"
+              );
+              this.reset(); // Reset the form after submission
+            },
+            (err) => {
+              console.error("Failed to send message.", err);
+              alert("Failed to send message.\n " + JSON.stringify(err));
+            }
+          );
+        });
+    </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
