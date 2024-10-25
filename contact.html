@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
 
@@ -37,22 +37,21 @@
     <meta name="description" content="Health and Wellness Clinic" />
     <meta property="og:description" content="Health and Wellness Clinic" />
   </head>
-  <body>
+  <body class="gradient-background-content">
     <nav class="navbar navbar-expand-lg p-0 sticky-top">
       <div
         class="container-fluid d-flex justify-content-between align-items-center"
       >
-        <div class="navbar-logo">
-          <a class="navbar-brand d-flex align-items-middle" href="index.html">
-            <img
-              src="media/healing hands rectangle logo.png"
-              alt="Brand Logo"
-              width="205"
-              height="60"
-              class="d-inline-block align-text-left ms-3 rounded"
-            />
-          </a>
-        </div>
+        <a class="navbar-brand d-flex align-items-middle" href="index.html">
+          <img
+            id="navbar-logo"
+            src="media/healing hands rectangle logo.jpg"
+            alt="Brand Logo"
+            width="292"
+            height="73"
+            class="d-inline-block align-text-left ms-3 rounded"
+          />
+        </a>
 
         <button
           class="navbar-toggler mx-3"
@@ -178,7 +177,7 @@
       </div>
     </nav>
 
-    <div class="container mt-5 shadow">
+    <div class="container mt-5">
       <div class="row mx-1 mt-5">
         <div class="col-lg-12">
           <div class="bg-light rounded p-4">
@@ -188,11 +187,11 @@
             </p>
             <button
               class="btn mb-1"
-              id="customButton"
+              id="customButton3"
               data-bs-toggle="modal"
               data-bs-target="#popupNoteModal"
             >
-              Click for important info
+              Important info
             </button>
 
             <!-- Popup Modal -->
@@ -214,14 +213,91 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body purple-text">
                     CANCELLATIONS: 48 HOURS NOTICE IS REQUIRED TO CANCEL AN
                     APPOINTMENT. FAILURE TO DO SO WILL RESULT IN FULL PAYMENT OF
                     TREATMENT BOOKED. PLEASE BE ON TIME FOR YOUR APPOINTMENT.
                     PLEASE SWITCH OFF YOUR MOBILE PHONE FOR THE DURATION OF YOUR
                     TREATMENT. GIFT VOUCHERS ARE NOT TRANSFERABLE.
                     <p></p>
-                    <p>Gift vouchers available upon request</p>
+                    <p>
+                      Gift vouchers available upon request via any options
+                      listed on contact form below
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn mb-1"
+              id="customButton3"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+            >
+              Insurance Partners
+            </button>
+
+            <div
+              class="modal fade"
+              id="imageModal"
+              tabindex="-1"
+              aria-labelledby="imageModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">
+                      Insurance Partners
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img
+                          src="media/laya.jpg"
+                          class="img-fluid"
+                          alt="Image 1"
+                        />
+                      </div>
+                      <div class="col-md-3">
+                        <img
+                          src="media/glo.jpg"
+                          class="img-fluid"
+                          alt="Image 2"
+                        />
+                      </div>
+                      <div class="col-md-3">
+                        <img
+                          src="media/vhi.jpg"
+                          class="img-fluid"
+                          alt="Image 3"
+                        />
+                      </div>
+                      <div class="col-md-3">
+                        <img
+                          src="media/irishlife.png"
+                          class="img-fluid"
+                          alt="Image 4"
+                        />
+                      </div>
+                      <!-- Add more images as needed -->
+                    </div>
                   </div>
                   <div class="modal-footer">
                     <button
@@ -241,7 +317,7 @@
             <p id="contact-info" class="fw-light">
               LinkedIn: bernadettehealinghands
             </p>
-            <p class="fw-light">Phone: +353 863893413</p>
+            <p class="fw-light purple-text">Phone: +353 863893413</p>
 
             <!-- Contact Form -->
             <form id="contactForm">
@@ -315,7 +391,7 @@
                     value="Hopi Candling"
                   />
                   <label class="form-check-label" for="service2"
-                    >Hopi Candling</label
+                    >Hopi Ear-Candling</label
                   >
                 </div>
                 <div class="form-check">
@@ -339,7 +415,7 @@
                     value="Oncology"
                   />
                   <label class="form-check-label" for="service4"
-                    >Oncology</label
+                    >Oncology Massage</label
                   >
                 </div>
                 <div class="form-check">
@@ -351,7 +427,7 @@
                     value="Deep Tissue"
                   />
                   <label class="form-check-label" for="service4"
-                    >Deep Tissue</label
+                    >Deep Tissue Massage</label
                   >
                 </div>
                 <div class="form-check">
@@ -363,7 +439,7 @@
                     value="Therapeutic"
                   />
                   <label class="form-check-label" for="service4"
-                    >Therapeutic</label
+                    >Therapeutic Massage</label
                   >
                 </div>
                 <div class="form-check">
@@ -375,7 +451,7 @@
                     value="Lymphatic"
                   />
                   <label class="form-check-label" for="service4"
-                    >Lymphatic</label
+                    >Lymphatic Massage</label
                   >
                 </div>
                 <div class="form-check">
@@ -387,7 +463,7 @@
                     value="Acupuncture"
                   />
                   <label class="form-check-label" for="service4"
-                    >Pre-Natal</label
+                    >Pre-Natal Massage</label
                   >
                 </div>
                 <div class="form-check">
@@ -399,7 +475,7 @@
                     value="Acupuncture"
                   />
                   <label class="form-check-label" for="service4"
-                    >Post-Natal</label
+                    >Post-Natal Massage</label
                   >
                 </div>
                 <div class="form-check">
@@ -411,7 +487,7 @@
                     value="Indian Head"
                   />
                   <label class="form-check-label" for="service4"
-                    >Indian Head</label
+                    >Indian Head Massage</label
                   >
                 </div>
                 <div class="form-check">
@@ -423,7 +499,19 @@
                     value="Aromatherapy"
                   />
                   <label class="form-check-label" for="service4"
-                    >Aromatherapy</label
+                    >Aromatherapy Massage</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="service11"
+                    name="services"
+                    value="Aromatherapy"
+                  />
+                  <label class="form-check-label" for="service4"
+                    >Thai Massage</label
                   >
                 </div>
                 <div class="form-check">
@@ -435,7 +523,7 @@
                     value="Hot Stone"
                   />
                   <label class="form-check-label" for="service4"
-                    >Hot Stone</label
+                    >Hot Stone Massage</label
                   >
                 </div>
               </div>
@@ -465,61 +553,7 @@
 
     <footer class="text-center py-3 footer mx-5 position-relative">
       &copy; LSWebDesign.
-      <div class="info-link">
-        <a
-          href="#"
-          id="moreInfoLink"
-          data-bs-toggle="modal"
-          data-bs-target="#moreInfoModal"
-        >
-          Insurance information
-        </a>
-      </div>
     </footer>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="moreInfoModal"
-      tabindex="-1"
-      aria-labelledby="moreInfoModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="moreInfoModalLabel">
-              Insurance Information
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            Our services are covered under insurance companies listed below,
-            please get in contact for more info.
-            <ul>
-              <li>VHI Healthcare</li>
-              <li>Laya Healthcare</li>
-              <li>Irish Life Health</li>
-              <li>Glohealth</li>
-            </ul>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- EmailJS Script -->
     <script

@@ -1,6 +1,6 @@
 body {
-  font-family: "Rubik";
-  background-color: #ffffff;
+  font-family: "Bitter";
+  background-color: #f8f9fa;
 }
 
 .container-fluid {
@@ -52,6 +52,12 @@ body {
   color: #7b5298;
 }
 
+.class-card-title-content {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
 .class-card-text {
   font-size: 1rem;
   color: #555;
@@ -60,6 +66,11 @@ body {
 .class-card-secondary {
   font-size: 1.2rem;
   color: #555;
+}
+
+.class-card-secondary-content {
+  font-size: 1.2rem;
+  color: #000000;
 }
 
 .centered-images {
@@ -74,8 +85,17 @@ body {
   height: 20px;
 }
 
+.purple-text {
+  color: #7b5298;
+}
+
+.blue-text {
+  color: #3fa5cf;
+}
+
 .navbar {
-  background-color: #ffffff;
+  /* background-color: #f4f4f4; */
+  background-color: #f8f9fa;
   border: none;
   box-shadow: none;
   border-radius: 0;
@@ -85,10 +105,16 @@ body {
 
 .navbar-brand {
   font-size: 500;
-  color: #ffffff;
+  color: #f8f9fa;
   font-variant-east-asian: simplified;
   text-decoration: none;
   align-items: start;
+  border: #000000;
+}
+
+#navbar-logo {
+  border: 3px solid #000000; /* You can change the color and thickness */
+  border-radius: 8px; /* Optional: to round the corners */
 }
 
 .navbar-brand:hover {
@@ -99,11 +125,30 @@ body {
 /* Nav Link */
 .nav-link {
   align-items: center;
-  color: #7b5298;
+  color: #3fa5cf;
+}
+
+.gradient-background {
+  width: 100%;
+  height: 85vh; /* Full height */
+  background: radial-gradient(circle, #3fa5cf 10%, #7b5298 85%);
+}
+
+.gradient-background-content {
+  background: radial-gradient(circle, #3fa5cf 10%, #7b5298 85%);
+}
+
+.blueBackground {
+  background-color: #3fa5cf;
+}
+
+.gradient-background-divider {
+  width: 100vw;
+  background: radial-gradient(circle, #3fa5cf 52%, #7b5298 85%);
 }
 
 .nav-link:hover {
-  color: #059bdb;
+  color: #7b5298;
 }
 
 .nav-link.selected::after {
@@ -186,7 +231,7 @@ body {
 
 .overlay-content {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
@@ -194,21 +239,31 @@ body {
   padding: 20px;
   border-radius: 10px;
   width: 80%; /* Ensures the content doesn't get too wide */
+  display: flex; /* Flexbox layout for inline alignment */
+  justify-content: space-between; /* Space between text and image */
+  align-items: center; /* Vertically align text and image */
 }
 
 .overlay-content h1 {
-  font-size: 3.5em;
+  font-size: 4em;
   margin: 10px 0;
+  color: #f8f9fa;
 }
 
 .overlay-content p {
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 10px 0;
+  color: #f8f9fa;
 }
 
 .overlay-content .btn {
   padding: 10px 20px;
   font-size: 1em;
+}
+
+.custom-image {
+  margin-right: 140px;
+  width: 90%;
 }
 
 .ethos-text {
@@ -274,6 +329,12 @@ body {
     font-size: 1rem;
     color: #555;
   }
+
+  .gradient-background {
+    width: 100%;
+    height: 30vh; /* Full height */
+    background: radial-gradient(circle, #3fa5cf 10%, #7b5298 85%);
+  }
 }
 
 /* Media query for very small screens */
@@ -320,28 +381,43 @@ body {
 
 #contact-info {
   margin: 0px 0;
+  color: #7b5298;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
 }
 
 #customButton {
   color: white; /* Blue color */
   background-color: #7b5298;
-  border-width: 2px;
 }
 
 #customButton:hover {
   background-color: #3fa5cf; /* Blue background color on hover */
-  color: #ffffff; /* Text color on hover */
+  color: #f8f9fa; /* Text color on hover */
+}
+#customButton3 {
+  color: #3fa5cf; /* Blue color */
+  background-color: #f8f9fa;
+  border: 2px solid #979797;
+  border-radius: 8px;
+}
+
+#customButton3:hover {
+  background-color: #3fa5cf; /* Blue background color on hover */
+  color: #f8f9fa; /* Text color on hover */
 }
 
 #customButton2 {
   color: #000000; /* Blue color */
-  background-color: #ffffff;
+  background-color: #f8f9fa;
   border-width: 2px;
 }
 
 #customButton2:hover {
   background-color: #3fa5cf; /* Blue background color on hover */
-  color: #ffffff; /* Text color on hover */
+  color: #f8f9fa; /* Text color on hover */
 }
 
 .booking-form {
@@ -385,13 +461,13 @@ body {
 
 .whitetext {
   font-size: 1rem;
-  color: #ffffff;
+  color: #f8f9fa;
 }
 
 .whitetitle {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #f8f9fa;
 }
 
 /* Custom dropdown animation */
@@ -414,17 +490,17 @@ body {
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #ffffff; /* Change this to your desired background color */
+  background-color: #f8f9fa; /* Change this to your desired background color */
   color: #3fa5cf; /* Change the text color if needed */
 }
 
 .navbar-nav .dropdown-toggle {
-  color: #7b5298; /* Purple color */
+  color: #3fa5cf; /* Purple color */
 }
 
 /* Change color when hovering over the dropdown toggle */
 .navbar-nav .dropdown-toggle:hover {
-  color: #3fa5cf; /* Darker purple on hover */
+  color: #7b5298; /* Darker purple on hover */
 }
 .navbar-nav .dropdown-toggle:active {
   color: #3fa5cf; /* Darker purple on hover */

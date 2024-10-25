@@ -9,9 +9,8 @@
     <link href="styles.css" rel="stylesheet" />
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">    
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Favicon links -->
@@ -41,17 +40,16 @@
       
     <nav class="navbar navbar-expand-lg p-0 sticky-top">
       <div class="container-fluid d-flex justify-content-between align-items-center">
-        <div class="navbar-logo">
           <a class="navbar-brand d-flex align-items-middle" href="index.html">
             <img
-              src="media/healing hands rectangle logo.png"
+              id="navbar-logo"
+              src="media/healing hands rectangle logo.jpg"
               alt="Brand Logo"
-              width="205"
-              height="60"
+              width="292"
+              height="73"
               class="d-inline-block align-text-left ms-3 rounded"
             />
           </a>
-        </div>
     
         <button
           class="navbar-toggler mx-3"
@@ -128,29 +126,16 @@
     
       
 
-      <div class="container-fluid position-relative">
-        <!-- Image for larger screens -->
-        <img
-          src="media/background(2).png"
-          class="img-fluid w-100 d-none d-sm-block"
-          alt="Responsive image"
-          id="bgImage"
-        />
-        
-        <!-- Image for smaller screens -->
-        <img
-          src="media/background(1).png"
-          class="img-fluid w-100 d-block d-sm-none"
-          alt="Responsive image"
-          id="bgImageSmall"
-        />
-        
-        <div class="overlay-content">
+    <div class="container-fluid position-relative gradient-background">
+      <div class="overlay-content d-flex align-items-center justify-content-between">
+        <!-- Text Content -->
+        <div class="text-content">
           <h1 class="fw-semibold display-block">Healing Hands</h1>
-          <p class="lead">A calm and relaxing environment to start your healing</p>
-          <a class="btn" id="customButton" href="contact.html">Get started</a>
+          <p class="lead">Targeted and Effective Therapies for a Variety Of Ailments</p>
+          <a class="btn" id="customButton3" href="contact.html">Book a Session</a>
         </div>
       </div>
+    </div>
 
 
 
@@ -158,8 +143,8 @@
 <div class="container my-5">
   <div class="row">
     <div class="col-12 text-center mb-4">
-      <h2 class="class-card-title">My Therapies</h2>
-      <p class="lead class-card-secondary">Therapies designed to heal mind, body and soul</p>
+      <h2 class="class-card-title">Therapies to Choose From</h2>
+      <p class="lead class-card-secondary">Delivered by 30 years of expertise</p>
     </div>
   </div>
   <div class="row">
@@ -205,12 +190,12 @@
 </div>
 
 <!-- Testimonials Section -->
-<div class="container my-3 blueback py-4 w-100"> <!-- d-md-none hides on devices md and up -->
+<div class="container-fluid my-3 py-5 gradient-background-divider"> <!-- d-md-none hides on devices md and up -->
   <div class="row align-items-center">
     <!-- Text on Left -->
     <div class="col-12 text-center text-white"> <!-- Added text-center class -->
       <h3 class="whitetitle">What My Clients Say</h3>
-      <p class="lead whitetext">My clients' health and wellbeing is my No.1 priority. Check out what they have to say!</p>
+      <p class="lead whitetext">My clients are my priority. Check out what they have to say!</p>
       <a class="btn" id="customButton2" href="testimonials.html">Read Client Testimonials</a>
     </div>
   </div>
@@ -282,61 +267,7 @@
 
 <footer class="text-center py-3 footer mx-5 position-relative">
   &copy; LSWebDesign.
-  <div class="info-link">
-    <a
-      href="#"
-      id="moreInfoLink"
-      data-bs-toggle="modal"
-      data-bs-target="#moreInfoModal"
-    >
-      Insurance information
-    </a>
-  </div>
 </footer>
-
-<!-- Modal -->
-<div
-  class="modal fade"
-  id="moreInfoModal"
-  tabindex="-1"
-  aria-labelledby="moreInfoModalLabel"
-  aria-hidden="true"
->
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="moreInfoModalLabel">
-          Insurance Information
-        </h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="modal-body">
-        Our services are covered under insurance companies listed below,
-        please get in contact for more info.
-        <ul>
-          <li>VHI Healthcare</li>
-          <li>Laya Healthcare</li>
-          <li>Irish Life Health</li>
-          <li>Glohealth</li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <button
-          type="button"
-          class="btn btn-secondary"
-          data-bs-dismiss="modal"
-        >
-          Close
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
 
     <!-- Bootstrap -->
     <script

@@ -11,29 +11,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
     <!-- Favicon links -->
     <link rel="icon" href="BranoFitIcons/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="BranoFitIcons/apple-touch-icon.png" />
   </head>
-  <body>
+  <body class="gradient-background-content">
     <nav class="navbar navbar-expand-lg p-0 sticky-top">
       <div
         class="container-fluid d-flex justify-content-between align-items-center"
       >
-        <div class="navbar-logo">
-          <a class="navbar-brand d-flex align-items-middle" href="index.html">
-            <img
-              src="media/healing hands rectangle logo.png"
-              alt="Brand Logo"
-              width="205"
-              height="60"
-              class="d-inline-block align-text-left ms-3 rounded"
-            />
-          </a>
-        </div>
+        <a class="navbar-brand d-flex align-items-middle" href="index.html">
+          <img
+            id="navbar-logo"
+            src="media/healing hands rectangle logo.jpg"
+            alt="Brand Logo"
+            width="292"
+            height="73"
+            class="d-inline-block align-text-left ms-3 rounded"
+          />
+        </a>
 
         <button
           class="navbar-toggler mx-3"
@@ -99,47 +98,47 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="reflexology.html"
+                  <a class="dropdown-item" href="oncology.html"
                     >Oncology Massage</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="hopiCandling.html"
+                  <a class="dropdown-item" href="sDeepTissue.html"
                     >Specialised Deep-Tissue</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="soundTherapy.html"
+                  <a class="dropdown-item" href="therapuetic.html"
                     >Therapuetic Massage</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="soundTherapy.html"
+                  <a class="dropdown-item" href="lymphatic.html"
                     >Lymphatic Drainage</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="soundTherapy.html"
+                  <a class="dropdown-item" href="preNatal.html"
                     >Pre-Natal Massage</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="soundTherapy.html"
+                  <a class="dropdown-item" href="postNatal.html"
                     >Post-Natal Massage</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="soundTherapy.html"
+                  <a class="dropdown-item" href="indianHead.html"
                     >Indian Head Massage</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="soundTherapy.html"
+                  <a class="dropdown-item" href="aromaTherapy.html"
                     >Aromatherapy Massage</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="soundTherapy.html"
+                  <a class="dropdown-item" href="hotStone.html"
                     >Hot Stone Massage</a
                   >
                 </li>
@@ -161,7 +160,7 @@
       <div class="row mx-1 mt-5">
         <div class="col-lg-12">
           <div class="bg-light rounded p-4">
-            <h2 class="text-center class-card-title">Hopi Candling</h2>
+            <h2 class="text-center class-card-title">Hopi Ear-Candling</h2>
             <p class="lead text-center class-card-secondary">
               Discover the benefits and effects of our therapies.
             </p>
@@ -229,53 +228,12 @@
               to put cotton wool in your ears to keep them dry.
             </p>
 
-            <button
-              class="btn mb-1"
-              id="customButton"
-              data-bs-toggle="modal"
-              data-bs-target="#popupNoteModal"
-            >
-              Click for important info
-            </button>
-
-            <!-- Popup Modal -->
-            <div
-              class="modal fade"
-              id="popupNoteModal"
-              tabindex="-1"
-              aria-labelledby="popupNoteModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="popupNoteModalLabel">Note:</h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    CANCELLATIONS: 48 HOURS NOTICE IS REQUIRED TO CANCEL AN
-                    APPOINTMENT. FAILURE TO DO SO WILL RESULT IN FULL PAYMENT OF
-                    TREATMENT BOOKED. PLEASE BE ON TIME FOR YOUR APPOINTMENT.
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <p class="fw-light">For more information, please contact us.</p>
+            <a href="contact.html">
+              <p class="fw-light">
+                For more information or to book an appointment, please contact
+                us.
+              </p>
+            </a>
           </div>
         </div>
       </div>
@@ -283,61 +241,7 @@
 
     <footer class="text-center py-3 footer mx-5 position-relative">
       &copy; LSWebDesign.
-      <div class="info-link">
-        <a
-          href="#"
-          id="moreInfoLink"
-          data-bs-toggle="modal"
-          data-bs-target="#moreInfoModal"
-        >
-          Insurance information
-        </a>
-      </div>
     </footer>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="moreInfoModal"
-      tabindex="-1"
-      aria-labelledby="moreInfoModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="moreInfoModalLabel">
-              Insurance Information
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            Our services are covered under insurance companies listed below,
-            please get in contact for more info.
-            <ul>
-              <li>VHI Healthcare</li>
-              <li>Laya Healthcare</li>
-              <li>Irish Life Health</li>
-              <li>Glohealth</li>
-            </ul>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- Bootstrap -->
     <script
