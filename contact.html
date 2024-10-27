@@ -116,7 +116,7 @@
                 </li>
                 <li>
                   <a class="dropdown-item" href="sDeepTissue.html"
-                    >Specialised Deep-Tissue</a
+                    >Specialised Deep-Tissue Massage</a
                   >
                 </li>
                 <li>
@@ -309,6 +309,7 @@
                 </div>
               </div>
             </div>
+            <p id="contact-info" class="fw-light">Newbridge, Co. Kildare</p>
             <p id="contact-info" class="fw-light">
               Email: info@hhandsclinic.ie
             </p>
@@ -561,7 +562,7 @@
     <script type="text/javascript">
       (function () {
         emailjs.init({
-          publicKey: "LiRwygA2lBvcrw_3E", // Your public key
+          publicKey: "W8xb5K-tgFG-lgUPp", // Your public key
         });
       })();
     </script>
@@ -572,21 +573,27 @@
         .addEventListener("submit", function (event) {
           event.preventDefault(); // Prevent default form submission
 
-          const serviceID = "service_kuln9ss"; // Your service ID
-          const templateID = "template_a77o2dp"; // Your product request template ID
+          const serviceID = "service_6u3pt4k"; // Your service ID
+          const templateID = "template_qrnumfq"; // Your template ID
 
           // Collect form data
           const params = {
             name: document.getElementById("contactName").value,
             email: document.getElementById("contactEmail").value,
+            phone: document.getElementById("contactPhone").value,
             message: document.getElementById("contactMessage").value,
+            services: Array.from(
+              document.querySelectorAll('input[name="services"]:checked')
+            )
+              .map((checkbox) => checkbox.value)
+              .join(", "), // Collect selected services as a comma-separated string
           };
 
           // Send email with parameters
           emailjs.send(serviceID, templateID, params).then(
             () => {
               alert(
-                "Message sent! I'll get back to you soon, keep an eye on your email in the meantime"
+                "Message sent! I'll get back to you soon, keep an eye on your email in the meantime."
               );
               this.reset(); // Reset the form after submission
             },
