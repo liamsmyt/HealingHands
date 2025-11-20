@@ -58,9 +58,17 @@ body {
   color: #000000;
 }
 
+.text-verysmall {
+  font-size: x-small;
+}
+
 .class-card-text {
-  font-size: 1rem;
+  font-size: 0.65rem;
   color: #555;
+}
+
+.fw-bold {
+  font-weight: bold;
 }
 
 .class-card-secondary {
@@ -386,6 +394,13 @@ body {
 
 .bg-light {
   background-color: #f8f9fa !important;
+}
+
+.subtext {
+  color: #9ca3af;
+  font-weight: 300;
+  margin-top: -8px;
+  font-size: small;
 }
 
 #customButton {
