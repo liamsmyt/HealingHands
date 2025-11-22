@@ -63,7 +63,7 @@ body {
 }
 
 .class-card-text {
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   color: #555;
 }
 
@@ -400,7 +400,7 @@ body {
   color: #9ca3af;
   font-weight: 300;
   margin-top: -8px;
-  font-size: small;
+  font-size: 1rem;
 }
 
 #customButton {
