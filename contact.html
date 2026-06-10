@@ -99,6 +99,11 @@
                     >Sound Therapy</a
                   >
                 </li>
+                <li>
+                  <a class="dropdown-item" href="subfertileCouples.html"
+                    >Subfertile Couples Programme</a
+                  >
+                </li>
               </ul>
             </div>
             <div class="nav-item dropdown">
@@ -180,151 +185,15 @@
             <p class="lead text-center class-card-secondary">
               Looking to book an appointment? Got any questions or enquiries?
             </p>
-            <button
-              class="btn mb-1"
-              id="customButton3"
-              data-bs-toggle="modal"
-              data-bs-target="#popupNoteModal"
-            >
-              Important info
-            </button>
-
-            <!-- Popup Modal -->
-            <div
-              class="modal fade"
-              id="popupNoteModal"
-              tabindex="-1"
-              aria-labelledby="popupNoteModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="popupNoteModalLabel">Note:</h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body purple-text">
-                    CANCELLATIONS: 48 HOURS NOTICE IS REQUIRED TO CANCEL AN
-                    APPOINTMENT. FAILURE TO DO SO WILL RESULT IN FULL PAYMENT OF
-                    TREATMENT BOOKED. PLEASE BE ON TIME FOR YOUR APPOINTMENT.
-                    PLEASE SWITCH OFF YOUR MOBILE PHONE FOR THE DURATION OF YOUR
-                    TREATMENT. GIFT VOUCHERS ARE NOT TRANSFERABLE.
-                    <p></p>
-                    <p>
-                      Gift vouchers available upon request via any options
-                      listed on contact form below
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button
-              class="btn mb-1"
-              id="customButton3"
-              data-bs-toggle="modal"
-              data-bs-target="#imageModal"
-            >
-              Healthcare Insurance Providers
-            </button>
-
-            <div
-              class="modal fade"
-              id="imageModal"
-              tabindex="-1"
-              aria-labelledby="imageModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="imageModalLabel">
-                      Check if you are covered
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <img
-                          src="media/laya.jpg"
-                          class="img-fluid"
-                          alt="Image 1"
-                        />
-                      </div>
-                      <div class="col-md-3">
-                        <img
-                          src="media/glo.jpg"
-                          class="img-fluid"
-                          alt="Image 2"
-                        />
-                      </div>
-                      <div class="col-md-3">
-                        <img
-                          src="media/vhi.jpg"
-                          class="img-fluid"
-                          alt="Image 3"
-                        />
-                      </div>
-                      <div class="col-md-3">
-                        <img
-                          src="media/irishlife.png"
-                          class="img-fluid"
-                          alt="Image 4"
-                        />
-                      </div>
-                      <div class="col-md-3">
-                        <img
-                          src="media/HSF-Health-Plan-logo_Full-colour-logo-1-1536x772.png"
-                          class="img-fluid"
-                          alt="Image 4"
-                        />
-                      </div>
-                                            <div class="col-md-3">
-                        <img
-                          src="media/garda.jpg"
-                          class="img-fluid"
-                          alt="Image 5"
-                        />
-                      </div>
-                      <div class="col-md-3">
-                        <img
-                          src="media/level.png"
-                          class="img-fluid"
-                          alt="Image 5"
-                        />
-                      </div>
-                      <!-- Add more images as needed -->
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
+            <div class="insurance-providers my-3">
+              <div class="insurance-logos">
+                <img src="media/laya.jpg" alt="Laya Healthcare" class="insurance-logo" />
+                <img src="media/glo.jpg" alt="GloHealth" class="insurance-logo" />
+                <img src="media/vhi.jpg" alt="VHI Healthcare" class="insurance-logo" />
+                <img src="media/irishlife.png" alt="Irish Life Health" class="insurance-logo" />
+                <img src="media/HSF-Health-Plan-logo_Full-colour-logo-1-1536x772.png" alt="HSF Health Plan" class="insurance-logo" />
+                <img src="media/garda.jpg" alt="Garda Medical Aid" class="insurance-logo" />
+                <img src="media/level.png" alt="Level Health" class="insurance-logo" />
               </div>
             </div>
             <p id="contact-info" class="fw-light">
@@ -612,6 +481,59 @@
                 Submit
               </button>
             </form>
+
+            <button
+              class="btn mt-3"
+              id="customButton3"
+              data-bs-toggle="modal"
+              data-bs-target="#popupNoteModal"
+            >
+              Important info
+            </button>
+
+            <!-- Popup Modal -->
+            <div
+              class="modal fade"
+              id="popupNoteModal"
+              tabindex="-1"
+              aria-labelledby="popupNoteModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="popupNoteModalLabel">Note:</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body purple-text">
+                    CANCELLATIONS: 48 HOURS NOTICE IS REQUIRED TO CANCEL AN
+                    APPOINTMENT. FAILURE TO DO SO WILL RESULT IN FULL PAYMENT OF
+                    TREATMENT BOOKED. PLEASE BE ON TIME FOR YOUR APPOINTMENT.
+                    PLEASE SWITCH OFF YOUR MOBILE PHONE FOR THE DURATION OF YOUR
+                    TREATMENT. GIFT VOUCHERS ARE NOT TRANSFERABLE.
+                    <p></p>
+                    <p>
+                      Gift vouchers available upon request via any options
+                      listed on contact form below
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
